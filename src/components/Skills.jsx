@@ -10,6 +10,9 @@ function Skills() {
                 <div className="skill-item">React</div>
                 <div className="skill-item">Git/GitHub</div>
                 <div className="skill-item">Responsive Design</div>
+                <div className="skill-item">UI/UX awareness</div>
+                <div className="skill-item">Pull requests</div>
+                <div className="skill-item">User-friendly interactions</div>
             </div>
         </section>
     );
