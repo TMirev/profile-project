@@ -5,11 +5,14 @@
   justify-content: center;
   font-size: large;
   padding: 20px;
-  width: 300px;
-  width: 45%;
+  max-width: 900px;
+  width: 70%;
   margin: 0 auto;
   background-color: lightsteelblue;
   text-align: center;
+
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 
@@ -43,7 +46,7 @@
 .card-image {
   width: clamp(120px, 30vw, 180px);
   height: clamp(120px, 30vw, 180px);
-  border-radius: 50%;
+  border-radius: 70%;
   object-fit: cover;
 }
 
@@ -101,7 +104,7 @@ body {
 .skill-item:hover {
   background: #5eead4;
   color: #111;
-  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+  box-shadow: 0 0 20px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
   transform: translateY(-3px);
 }
 
@@ -122,7 +125,7 @@ body {
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-size: larger;
+  font-size: 30px;
   text-align: center;
   margin-left: -30px;
 
@@ -138,7 +141,7 @@ h1 {
 
 .app.dark .skills {
   background: #1c2128;
-  color: #e6edf3;
+  color: white;
 }
 
 .shape {
