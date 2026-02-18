@@ -7,21 +7,18 @@ import Skills from "./components/Skills";
 function Card({ children }) {
     return (
 
-
-
         <div className="card">
 
             <div className="image-wrapper">
                 <img className="card-image" src={profilePic} alt="profile picture" />
             </div>
 
-
             <div className="contacts-summary-box">
-
                 <ul className="contact-list">
                     <h1>Tenko Mirev</h1>
                     <p>Front-End Developer</p>
-                    <div className="contact-links">
+
+                    <div className="contact-links">    
                         <h3>Contacts</h3>
                         <a href="mailto:t.d.mirev@gmail.com">t.d.mirev@gmail.com</a>
                         <br />

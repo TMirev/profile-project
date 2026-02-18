@@ -12,17 +12,11 @@ function App() {
     <>
 
       <ContactSection />
-
       <Card />
-
-
-
 
     </>
 
   );
-
 }
-
 
 export default App;
