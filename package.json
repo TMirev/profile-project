@@ -1,5 +1,6 @@
 {
   "name": "profile-project",
+  "homepage": "https://tmirev.github.io/Profile-Project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
