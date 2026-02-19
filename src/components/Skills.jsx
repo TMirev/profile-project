@@ -12,10 +12,7 @@ function Skills() {
                 <div className="skill-item">Responsive Design</div>
                 <div className="skill-item">UI/UX fundamentals</div>
                 <div className="skill-item">Push/Pull requests</div>
-                <div className="skill-item">Chrome DevTools</div>
                 <div className="skill-item">VSCode</div>
-                <div className="skill-item">APIs</div>
-                <div className="skill-item">Debugging</div>
             </div>
         </section>
     );
