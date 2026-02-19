@@ -4,9 +4,9 @@
   box-shadow: 10px 10px 10px;
   justify-content: center;
   font-size: large;
-  padding: 20px;
+  padding: 10px;
   max-width: 900px;
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
   background-color: lightsteelblue;
   text-align: center;
@@ -43,18 +43,19 @@
   }
 }
 
-@media (max-width 768px) {
+@media (max-width: 768px) {
   .image-wrapper {
+    height: 150px;
     background-size: contain;
     background-position: top;
   }
 }
 
 .card-image {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 30px;
-  margin-top: 30%;
+  margin-top: 10px;
 }
 
 .card .card-title {
@@ -63,28 +64,28 @@
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   text-align: center;
-  margin-left: -30px;
+  margin-left: 0;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
-  text-align: left;
-  font-size: 30px;
+  text-align: center;
+  font-size: 22px;
   margin: 20px;
 }
 
 h3 {
-  text-align: left;
-  font-size: 30px;
+  text-align: center;
+  font-size: 22px;
 }
 
 p {
   font-family: "Inter", sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   margin: 4px, 0;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: justify;
 }
 
@@ -104,9 +105,9 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 
