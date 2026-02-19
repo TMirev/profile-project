@@ -8,12 +8,13 @@
 }
 
 .image-wrapper {
-    width: 200vh;
+    width: 100%;
     max-width: 900px;
-    height: 200px;
+    height: 250px;
     background-image: url("./assets/Codingnew.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     border-radius: 20px;
     display: flex;

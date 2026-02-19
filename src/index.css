@@ -43,6 +43,13 @@
   }
 }
 
+@media (max-width 768px) {
+  .image-wrapper {
+    background-size: contain;
+    background-position: top;
+  }
+}
+
 .card-image {
   width: 120px;
   height: 120px;
