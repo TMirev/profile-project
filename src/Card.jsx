@@ -17,9 +17,12 @@ function Card({ children }) {
                 <ul className="contact-list">
                     <h1>Tenko Mirev</h1>
                     <p>Front-End Developer</p>
+                    <h3>Contacts</h3>
+
+
 
                     <div className="contact-links">
-                        <h3>Contacts</h3>
+
                         <a href="mailto:t.d.mirev@gmail.com">t.d.mirev@gmail.com</a>
                         <br />
 
