@@ -8,6 +8,7 @@
 }
 
 .image-wrapper {
+    margin-bottom: 20px;
     width: 100%;
     max-width: 900px;
     height: 250px;
@@ -23,21 +24,27 @@
 }
 
 .contact-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
-    text-decoration: none;
     text-align: left;
+    gap: 6px;
+    text-decoration: underline;
 
     transform: translateX(10px);
 }
 
 .contact-links {
+    text-align: center;
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 6px;
     padding: 5px;
+    margin-left: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
+
 }
 
 .contacts-summary-box p {
@@ -60,7 +67,6 @@
 
 .contact-links a::before {
     content: "🔗";
-    position: absolute;
-    left: -40px;
+    left: -30px;
     top: 0;
 }

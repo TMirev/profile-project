@@ -14,10 +14,11 @@ function Card({ children }) {
             </div>
 
             <div className="contacts-summary-box">
-                <ul className="contact-list">
+                <div className="contact-list">
                     <h1>Tenko Mirev</h1>
                     <p>Front-End Developer</p>
                     <h3>Contacts</h3>
+
 
 
 
@@ -43,7 +44,7 @@ function Card({ children }) {
                             GitHub Projects
                         </a>
                     </div>
-                </ul>
+                </div>
             </div>
 
 

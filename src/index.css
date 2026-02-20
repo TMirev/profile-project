@@ -15,6 +15,10 @@
   word-break: break-word;
 }
 
+.card-header {
+  text-align: left;
+}
+
 
 .card .card-image {
   height: 170px;
