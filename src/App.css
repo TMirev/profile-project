@@ -16,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: flex;
@@ -36,6 +36,8 @@
     gap: 2px;
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+
 }
 
 .contacts-summary-box p {
@@ -45,13 +47,21 @@
 }
 
 .Certification-section {
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
     padding: 20px;
     text-align: left;
+
 
 }
 
 .contact-list p {
     text-align: center;
+}
+
+.contact-links a::before {
+    content: "🔗";
+    position: absolute;
+    left: -40px;
+    top: 0;
 }
