@@ -1,6 +1,7 @@
 import "./App.css";
 import profilePic from "./assets/image.jpg";
 import Certification from "./components/Certification";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 
@@ -18,8 +19,6 @@ function Card({ children }) {
                     <h1>Tenko Mirev</h1>
                     <p>Front-End Developer</p>
                     <h3>Contacts</h3>
-
-
 
 
                     <div className="contact-links">
@@ -41,7 +40,7 @@ function Card({ children }) {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            GitHub Projects
+                            GitHub
                         </a>
                     </div>
                 </div>
@@ -60,6 +59,10 @@ function Card({ children }) {
 
             <div className="contacts-summary-box">
                 <Skills />
+            </div>
+
+            <div className="contacts-summary-box">
+                <Projects />
             </div>
 
             <div className="contacts-summary-box">

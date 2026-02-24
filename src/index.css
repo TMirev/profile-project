@@ -130,13 +130,6 @@ body {
 
 }
 
-.skill-item:hover {
-  background: #5eead4;
-  color: #111;
-  box-shadow: 0 0 20px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
-  transform: translateY(-3px);
-}
-
 .card p {
   margin: 0;
   text-align: center;

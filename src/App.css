@@ -71,3 +71,56 @@
     left: -30px;
     top: 0;
 }
+
+.project-card {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.project-btn {
+    display: block;
+    width: 15%;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: 0.2s ease;
+}
+
+.project-btn:hover {
+    background: #5eead4;
+    color: #111;
+    box-shadow: 0 0 20px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+    transform: translateY(-3px);
+}
+
+.project-section {
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card h3 {
+    text-align: left;
+    font-size: 22px;
+}
+
+.project-image {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-image-tall{
+     width: 32%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}

@@ -1,9 +1,6 @@
-import { useState } from "react";
+import "./App.css";
 import Card from "./Card";
-import Skills from "./components/Skills"
-import Certification from "./components/Certification";
-import "./App.css"
-import ContactSection from "./components/contactSection"
+import ContactSection from "./components/contactSection";
 
 
 
@@ -13,6 +10,7 @@ function App() {
 
       <ContactSection />
       <Card />
+
 
     </>
 
