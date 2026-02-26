@@ -121,9 +121,11 @@
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .image-line {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
