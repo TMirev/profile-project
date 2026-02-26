@@ -28,14 +28,6 @@ function Projects() {
                         The project demonstrates strong front-end fundamentals, including state persistence, event handling and responsive UI design without relying on frameworks.
                     </p>
 
-                    <h3>Problems solved</h3>
-                    <ul>
-                        <li>Forgetting important tasks or dealines</li>
-                        <li>Losing ideas because they were not captured</li>
-                        <li>Feeling overwhelmed by scattered information</li>
-                        <li>Difficulty prioritizing what to do next</li>
-                    </ul>
-
                     <a href="https://tmirev.github.io/Notes-Board/" class="project-btn">Live Demo</a></div>
             </div>
 
