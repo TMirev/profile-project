@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 15px;
 }
 
 .contact-links a {
@@ -71,6 +72,7 @@
     margin-bottom: 3rem;
 }
 
+
 .project-btn {
     display: block;
     width: 15%;
@@ -111,10 +113,16 @@
     border-radius: 10px;
     margin-bottom: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+    transition: transform 0.3s ease;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.project-image:hover {
+    transform: scale(1.03);
+
+
 }
 
 .image-row {
@@ -122,10 +130,37 @@
     gap: 1.5rem;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.project-image-tall:hover {
+    transform: scale(1.04);
+}
+
+.project-image-first:hover {
+    transform: scale(1.04);
+}
+
+.project-image-second:hover {
+    transform: scale(1.04);
 }
 
 .image-line {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding-block: calc(10px);
+    list-style: disc;
+}
+
+li{
+    margin-bottom: 8px;
+    padding-left: 40px;
 }

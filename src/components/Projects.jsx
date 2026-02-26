@@ -28,6 +28,14 @@ function Projects() {
                         The project demonstrates strong front-end fundamentals, including state persistence, event handling and responsive UI design without relying on frameworks.
                     </p>
 
+                    <h3>Problems solved</h3>
+                    <ul>
+                        <li>Forgetting important tasks or dealines</li>
+                        <li>Losing ideas because they were not captured</li>
+                        <li>Feeling overwhelmed by scattered information</li>
+                        <li>Difficulty prioritizing what to do next</li>
+                    </ul>
+
                     <a href="https://tmirev.github.io/Notes-Board/" class="project-btn">Live Demo</a></div>
             </div>
 
@@ -37,8 +45,8 @@ function Projects() {
                 <h3>Travel Website</h3>
                 <div class="image-row">
                     <img src={TravelWeb} alt="Travel Web" className="project-image-tall"></img>
-                    <img src={Contacts} alt="Contact form" className="project-image-tall"></img>
-                    <img src={Destinations} alt="Destination form" className="project-image-tall"></img>
+                    <img src={Contacts} alt="Contact form" className="project-image-first"></img>
+                    <img src={Destinations} alt="Destination form" className="project-image-second"></img>
                 </div>
 
                 <p>Developed a responsive travel-themed website built with HTML, CSS and JavaScript, designed to showcase destinations, travel packages, and smooth user navigation.
