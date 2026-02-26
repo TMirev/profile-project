@@ -1,3 +1,6 @@
+import Contacts from "../images/Contacts.jpg";
+import Destinations from "../images/Destinations.jpg";
+import Notes from "../images/Notes.jpg";
 import NotesBoard from "../images/NotesBoard.jpg";
 import TravelWeb from "../images/TravelWeb.jpg";
 
@@ -12,7 +15,10 @@ function Projects() {
 
 
                     <h3>Notes Board</h3>
-                    <img src={NotesBoard} alt="Notes Board" className="project-image" />
+                    <div class="image-line">
+                        <img src={NotesBoard} alt="Notes Board" className="project-image" />
+                        <img src={Notes} alt="Notes Board" className="project-image" />
+                    </div>
 
                     <p>The Notes Board is a responsive note-taking application built with HTML, CSS and JavaScript.
                         Designed for fast, distraction-free writing.
@@ -29,7 +35,11 @@ function Projects() {
 
             <div className="project-card">
                 <h3>Travel Website</h3>
-                <img src={TravelWeb} alt="Travel Web" className="project-image-tall"></img>
+                <div class="image-row">
+                    <img src={TravelWeb} alt="Travel Web" className="project-image-tall"></img>
+                    <img src={Contacts} alt="Contact form" className="project-image-tall"></img>
+                    <img src={Destinations} alt="Destination form" className="project-image-tall"></img>
+                </div>
 
                 <p>Developed a responsive travel-themed website built with HTML, CSS and JavaScript, designed to showcase destinations, travel packages, and smooth user navigation.
                     The site features a clean, modern UI with visually engaging destination sections, interactive elements powered by JavaScript and a layout that adapts seamlessly across mobile, tablet, and desktop screens.

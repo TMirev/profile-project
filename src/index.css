@@ -1,6 +1,6 @@
 .card {
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
   box-shadow: 10px 10px 10px;
   justify-content: center;
   font-size: large;
@@ -10,9 +10,9 @@
   margin: 0 auto;
   background-color: lightsteelblue;
   text-align: center;
-
   overflow-wrap: break-word;
   word-break: break-word;
+
 }
 
 .card-header {
@@ -27,7 +27,6 @@
   border-radius: 50%;
   margin-top: 30px;
   padding: 5px;
-  border-radius: 50%;
   background: linear-gradient(45deg, #6aa9ff, #6a8aff, #6aff7b);
   background-size: 300% 300%;
   animation: gradientMove 4s ease infinite;
@@ -99,6 +98,11 @@ p {
 
 body {
   background-color: rgb(161, 153, 144);
+  background-image: repeating-linear-gradient(135deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 20px)
 }
 
 .skills-section {
