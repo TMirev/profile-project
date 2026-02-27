@@ -170,3 +170,9 @@ li {
     border-radius: 2px solid;
     max-width: 100%;
 }
+
+.tech{
+list-style: none;
+padding: 0;
+margin: 0;
+}

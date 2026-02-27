@@ -1,7 +1,7 @@
 function Skills() {
     return (
         <section className="skills-section">
-            <h2>Skills</h2>
+            <h2>Tech</h2>
 
             <div className="skills-grid">
                 <div className="skill-item">HTML</div>
@@ -13,6 +13,15 @@ function Skills() {
                 <div className="skill-item">UI/UX fundamentals</div>
                 <div className="skill-item">VSCode</div>
             </div>
+
+
+            <h2>Skills</h2>
+
+
+            <ul className="soft-skill">
+                <li>Attention to Detail</li>
+                <li>Continuous Learning</li>
+                <li>Time Management</li> </ul>
         </section>
     );
 }
