@@ -10,8 +10,11 @@ function Card({ children }) {
 
         <div className="card">
 
-            <div className="image-wrapper">
-                <img className="card-image" src={profilePic} alt="profile picture" />
+            <div className="contacts-summary-box">
+
+                <div className="image-wrapper-box">
+                    <img className="card-image" src={profilePic} alt="profile picture" />
+                </div>
             </div>
 
             <div className="contacts-summary-box">

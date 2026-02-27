@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 900px;
     height: 250px;
-    background-image: url("./assets/Codingnew.jpg");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,7 +160,13 @@ ul {
     list-style: disc;
 }
 
-li{
+li {
     margin-bottom: 8px;
     padding-left: 40px;
+}
+
+.image-wrapper-box {
+    background-color: lightblue;
+    border-radius: 2px solid;
+    max-width: 100%;
 }
