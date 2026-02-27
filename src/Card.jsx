@@ -55,11 +55,11 @@ function Card({ children }) {
 
                 <p>Motivated Front-End Developer focused on creating reponsive, accesible and visually appealing web interfaces.</p>
                 <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building personal projects such as Profile Page, Notes Board, Travel Website and Digital Watch project</p>
-                <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and modern CSS techniques.</p>
-                <p>Passionate about improving performance, writing maintainable code and building projects. Detail-oriented, commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
+                <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations.</p>
+                <p>Passionate about improving performance, writing maintainable code and building projects. Detail-oriented, I care about clarity, simplicity and creating interfaces that feel great to use. Commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
             </div>
 
-
+y
             <div className="contacts-summary-box">
                 <Skills />
             </div>
