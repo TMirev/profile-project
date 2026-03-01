@@ -59,7 +59,6 @@ function Card({ children }) {
                 <p>Passionate about improving performance, writing maintainable code and building projects. Detail-oriented, I care about clarity, simplicity and creating interfaces that feel great to use. Commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
             </div>
 
-y
             <div className="contacts-summary-box">
                 <Skills />
             </div>
