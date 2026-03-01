@@ -20,8 +20,8 @@ function Skills() {
 
             <ul className="soft-skill">
                 <li>Attention to Detail</li>
-                <li>Continuous Learning</li>
                 <li>Time Management</li>
+                <li>Continuous Learning</li>
                 <li>Contributions(GitHub commits)</li>
             </ul>
 
