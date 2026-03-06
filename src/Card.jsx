@@ -54,13 +54,13 @@ function Card({ children }) {
                 <h2>About me</h2>
 
                 <h3>Summary</h3>
-                <p>Motivated Front-End Developer focused on creating reponsive, accesible and visually appealing web interfaces.</p>
+                <p>Motivated Front-End Developer focused on creating reponsive, accesible and visually appealing web interfaces that prioritise usability and clean, maintainable code. I enjoy the mix of creativity and problem-solving in front-end work and love turning ideas into interactive experience. </p>
 
-                <h3>Technical Skills</h3>
-                <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building personal projects such as Profile Page, Notes Board, Travel Website and Digital Watch project</p>
+                <h3>Technical Experience</h3>
+                <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building personal projects such as Profile Page, Notes Board, Travel Website and Digital Watch project. </p>
 
                 <h3>Approach and Practice</h3>
-                <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations.</p>
+                <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations. Always curious to explore new tools, as a way to improve performance and refine my workflow.</p>
 
                 <h3>Values and Goals</h3>
                 <p>Passionate about improving performance, writing maintainable code and building projects. Detail-oriented, I care about clarity, simplicity and creating interfaces that feel great to use. Commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
