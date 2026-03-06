@@ -7,7 +7,7 @@ import TravelWeb from "../images/TravelWeb.jpg";
 function Projects() {
     return (
         <section className="project-section">
-            <h2>Projects</h2>
+            <h2>Technical Projects</h2>
 
             <div className="project-section">
 

@@ -54,10 +54,15 @@ function Card({ children }) {
                 <h2>About me</h2>
 
                 <h3>Summary</h3>
-                <p>Motivated Front-End Developer focused on creating reponsive, accesible and visually appealing web interfaces that prioritise usability and clean, maintainable code. I enjoy the mix of creativity and problem-solving in front-end work and love turning ideas into interactive experience. </p>
+                <p>Front-End developer with a solid foundation in modern web technologies and hands-on experience, user-focused applications.
+                    Through my Computer Science studies, I`ve built a strong foundation in programming, web development, and modern software practices.
+                    Developed multiple technical projects — including interactive web applications, responsive UI designs, and API-driven tools — which have strengthened my practical skills and problem-solving abilities.
+                    I`m capable in JavaScript, HTML, CSS, React, and version control with Git/GitHub, and I enjoy applying these skills to create clean, user-friendly, and visually engaging digital experiences.
+                    My online technical project work has taught me how to work independently, manage tasks, debug effectively, and continuously learn new technologies.
+                    Driven, adaptable, and eager to grow, I`m now looking for a role where I can contribute to meaningful projects, learn from experienced professionals, and continue developing into a well-rounded software engineer. </p>
 
                 <h3>Technical Experience</h3>
-                <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building personal projects such as Profile Page, Notes Board, Travel Website and Digital Watch project. </p>
+                <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building technical projects such as Profile Page, Notes Board, Travel Website and Digital Watch project. </p>
 
                 <h3>Approach and Practice</h3>
                 <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations. Always curious to explore new tools, as a way to improve performance and refine my workflow.</p>
