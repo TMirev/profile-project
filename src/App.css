@@ -124,6 +124,15 @@
     margin-right: auto;
 }
 
+.project-image-watch:hover {
+    transform: scale(1.03);
+}
+
+.project-image-watch {
+    border-radius: 10px;
+}
+
+
 .project-image:hover {
     transform: scale(1.03);
 

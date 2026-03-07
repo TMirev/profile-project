@@ -62,13 +62,14 @@ function Card({ children }) {
                     Driven, adaptable, and eager to grow, I`m now looking for a role where I can contribute to meaningful projects, learn from experienced professionals, and continue developing into a well-rounded software engineer. </p>
 
                 <h3>Technical Experience</h3>
-                <p>Skilled in HTML, CSS, JavaScript and React with hands on experience building technical projects such as Profile Page, Notes Board, Travel Website and Digital Watch project. </p>
+                <p>I have hands-on experience on building responsive, user-focused web application and website using JavaScript,React, HTML5 and CSS. My work emphasis on clean structure, components, and accessible semantic markup. I regularly use Git and GitHub for version control, follow professional branching workflows and debug efifciently.
+                    I`ve developed several projects including Notes Board App with dynamic UI updates and localStorage, a multi-section Travel Website with polished responsive design and a Watch UI focused on visual consistency and layout precisions. Across all projects, I pay attention to details and rely on strong understanding of modern front-end practices.` </p>
 
                 <h3>Approach and Practice</h3>
-                <p>Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations. Always curious to explore new tools, as a way to improve performance and refine my workflow.</p>
+                <p>I approach problems by breaking them into clear, manageable steps, then move forward with clean, maintainable solution. Combines clean code practices with a growing understanding of UI/UX principles to deliver easy to navigate user experience. Comfortable working with modern tools including React, GitHub, VsCode and CSS techniques including Flexbox, Grid and animations. Always curious to explore new tools, as a way to improve performance and refine my workflow.</p>
 
                 <h3>Values and Goals</h3>
-                <p>Passionate about improving performance, writing maintainable code and building projects. Detail-oriented, I care about clarity, simplicity and creating interfaces that feel great to use. Commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
+                <p>Passionate about solving problems, improving performance, writing maintainable code and building projects. Detail-oriented, I care about clarity, simplicity and creating interfaces that feel great to use. Key points for me are colalboration, clear communication as an integrity guide for how I work in teams and share goals. Commited to ongoing growth in Front-end development with a long-term role of becoming well-rounded software developer.</p>
             </div>
 
             <div className="contacts-summary-box">
