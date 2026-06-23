@@ -1,7 +1,7 @@
 import Contacts from "../images/Contacts.jpg";
 import Destinations from "../images/Destinations.jpg";
-import Notes from "../images/ProNotesResponsive.jpg";
 import NotesBoard from "../images/ProNotesMobile.jpg";
+import Notes from "../images/ProNotesResponsive.jpg";
 import TravelWeb from "../images/TravelWeb.jpg";
 import Watch from "../images/Watch.jpg";
 function Projects() {
@@ -52,16 +52,10 @@ function Projects() {
                     <p>- Dark/Light toggle modern</p>
                     <p>- Search filter notes</p>
                     <p>- Archive notes storage</p>
-                
-
-                <p>TECH STACK:
-                    - HTML structure
-                    - CSS - layout, styling, responsoveness
-                    - JavaScript - logic, DOM manipulation
-                    - Local Storage client-side data persisitence
-                    - Git and GitHub version control for deployment
-                    - GitHub pages hosting
-                </p>
+                    <p>- CSS layout, styling, responsoveness</p>
+                    <p>- Git and GitHub version control for deployment</p>
+                    
+                    
 
                 <a href="https://tmirev.github.io/ProNotes/" class="project-btn">Live Demo</a>
             </div >
