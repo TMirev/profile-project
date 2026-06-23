@@ -11,7 +11,9 @@ function Skills() {
                 <div className="skill-item">Git/GitHub</div>
                 <div className="skill-item">Responsive Design</div>
                 <div className="skill-item">UI/UX fundamentals</div>
-                <div className="skill-item">VSCode</div>
+                <div className="skill-item">Python</div>
+                <div className="skill-item">Debugging</div>
+                <div className="skill-item">Branching, Pull reqeusts</div>
             </div>
 
 
@@ -21,8 +23,9 @@ function Skills() {
             <ul className="soft-skill">
                 <li>Attention to Detail</li>
                 <li>Time Management</li>
-                <li>Continuous Learning</li>
+                <li>Prioritise tasks effectively</li>
                 <li>Contributions(GitHub commits)</li>
+                <li>Work well in teams</li>
             </ul>
 
         </section>

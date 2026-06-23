@@ -20,7 +20,7 @@ function Card({ children }) {
             <div className="contacts-summary-box">
                 <div className="contact-list">
                     <h1>Tenko Mirev</h1>
-                    <p>Front-End Developer</p>
+                    <p>Software Developer</p>
                     <h3>Contacts</h3>
 
 
@@ -54,15 +54,15 @@ function Card({ children }) {
                 <h2>About me</h2>
 
                 <h3>Summary</h3>
-                <p>Front-End developer with a solid foundation in modern web technologies and hands-on experience, user-focused applications.
+                <p>Software Developer with a solid foundation in modern web technologies and hands-on experience, user-focused applications.
                     Through my Computer Science studies, I`ve built a strong foundation in programming, web development, and modern software practices.
                     Developed multiple technical projects — including interactive web applications, responsive UI designs, and API-driven tools — which have strengthened my practical skills and problem-solving abilities.
-                    I`m capable in JavaScript, HTML, CSS, React, and version control with Git/GitHub, and I enjoy applying these skills to create clean, user-friendly, and visually engaging digital experiences.
-                    My online technical project work has taught me how to work independently, manage tasks, debug effectively, and continuously learn new technologies.
+                    I`m capable in JavaScript, HTML, CSS, Python, React and version control with Git/GitHub, and I enjoy applying these skills to create clean, user-friendly, and visually engaging digital experiences.
+                    My online technical projects work has taught me how to work independently, manage tasks, debug effectively, and continuously learn new technologies.
                     Driven, adaptable, and eager to grow, I`m now looking for a role where I can contribute to meaningful projects, learn from experienced professionals, and continue developing into a well-rounded software engineer. </p>
 
                 <h3>Technical Experience</h3>
-                <p>I have hands-on experience on building responsive, user-focused web application and website using JavaScript,React, HTML5 and CSS. My work emphasis on clean structure, components, and accessible semantic markup. I regularly use Git and GitHub for version control, follow professional branching workflows and debug efifciently.
+                <p>I have hands-on experience on building responsive, user-focused web application and website using JavaScript, React, HTML5 and CSS, Python. My work emphasis on clean structure, components, and accessible semantic markup. I regularly use Git and GitHub for version control, follow professional branching workflows and debug efifciently.
                     I`ve developed several projects including Notes Board App with dynamic UI updates and localStorage, a multi-section Travel Website with polished responsive design and a Watch UI focused on visual consistency and layout precisions. Across all projects, I pay attention to details and rely on strong understanding of modern front-end practices.` </p>
 
                 <h3>Approach and Practice</h3>
