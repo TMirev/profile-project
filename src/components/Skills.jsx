@@ -25,7 +25,7 @@ function Skills() {
                 <li>Time Management</li>
                 <li>Prioritise tasks effectively</li>
                 <li>Contributions(GitHub commits)</li>
-                <li>Work well in teams</li>
+                <li>Team collaborator</li>
             </ul>
 
         </section>
