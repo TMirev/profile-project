@@ -1,12 +1,12 @@
 # Profile Project
 
-A minimal, responsive single‑page portfolio built with React and Vite that renders a personal profile card, contact links and project showcases. Designed for fast local development with Vite and for straightforward static hosting (GitHub Pages, Netlify, Vercel).
+A minimal, responsive single‑page portfolio built with React and Vite that renders a personal profile card, contact links and project showcases. Designed for fast local development with Vite and [...]
 
 ---
 
 ## Demo
 
-Live demo (if published): https://tmirev.github.io/Profile-Project
+Live demo (if published): https://tmirev.github.io/profile-project/
 
 Add or replace the screenshot at `public/screenshot.png` for visual context:
 
@@ -31,7 +31,6 @@ Add or replace the screenshot at `public/screenshot.png` for visual context:
 - [Technical guidelines](#technical-guidelines)
 - [Maintenance & extension notes](#maintenance--extension-notes)
 - [Suggested docs to add](#suggested-docs-to-add)
-- [Contact / License](#contact--license)
 
 ---
 
@@ -40,7 +39,7 @@ Purpose: Present a concise, responsive personal profile and links to live demos 
 
 Audience: Developers and non‑technical visitors; primary maintainers are the repository owner and contributors.
 
-Runtime shape: Client‑only static SPA. `index.html` is served by a static host; Vite is used for local development and to produce the production bundle. `main.jsx` mounts `App` which composes `ContactSection` and `Card`; `Card` renders `Skills`, `Projects` and `Certification`.
+Runtime shape: Client‑only static SPA. `index.html` is served by a static host; Vite is used for local development and to produce the production bundle. `main.jsx` mounts `App` which composes `C[...]
 
 ---
 
@@ -124,7 +123,7 @@ Top-level files and folders you will typically use:
 .gitignore
 README.md           # this file
 docs/                # optional documentation (add ARCHITECTURE.md here)
-eslint.config.js     # lint rules
+elsint.config.js     # lint rules
 index.html           # single-page host
 package.json         # npm scripts and dependencies
 package-lock.json
@@ -151,7 +150,7 @@ src/
   assets/             -> other static assets
 ```
 
-How it fits together: `index.html` loads the Vite bundle; `main.jsx` mounts `App`. `App.jsx` composes `ContactSection` and `Card`; `Card.jsx` imports `Skills` and `Projects` and lays out the profile content. All content is static in the components (no backend calls).
+How it fits together: `index.html` loads the Vite bundle; `main.jsx` mounts `App`. `App.jsx` composes `ContactSection` and `Card`; `Card.jsx` imports `Skills` and `Projects` and lays out the prof[...]
 
 ---
 
@@ -169,7 +168,7 @@ This is a presentation layer only: data (text, images, links) is embedded in Rea
 ## Data persistence
 Current: No runtime persistence is used by the portfolio itself. All content is static and built into the bundle.
 
-Notes about related projects: Some projects listed in `Projects.jsx` (for example, "Pro Notes") use `localStorage` for their own persistence; that is local to those demos and not part of this portfolio app.
+Notes about related projects: Some projects listed in `Projects.jsx` (for example, "Pro Notes") use `localStorage` for their own persistence; that is local to those demos and not part of this por[...]
 
 If you later want editable content or user interactions that persist across devices, recommended approaches:
 - Local (simple): `localStorage` for theme, drafts, or non-critical preferences.
@@ -238,7 +237,7 @@ Accessibility (a11y)
 CSS & assets
 - Optimize images (use WebP or compressed JPG/PNG) and store optimized assets in `public/`.
 - Consider CSS Modules or a small component-scoped CSS approach to avoid global collisions.
-- Use `loading="lazy"` on large images to improve initial load.
+- Use `loading:"lazy"` on large images to improve initial load.
 
 Performance
 - Keep bundle size small; rely on Vite and tree‑shaking.
@@ -270,11 +269,5 @@ Security
 
 ---
 
-## Contact / License
-- Contact: t.d.mirev@gmail.com
-- License: Add a `LICENSE` file to declare the project's license (e.g., MIT).
-
----
-
 Notes
-- I updated this README to a clear, professional structure and included exact scripts from `package.json` and the `homepage` URL. Replace the demo URL and screenshot if required and add any missing links or additional project entries.
+- I updated this README to a clear, professional structure and included exact scripts from `package.json` and the `homepage` URL. Replace the demo URL and screenshot if required and add any missi[...]
